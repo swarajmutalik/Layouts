@@ -16,24 +16,44 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    padding: 5px 30px;
+}
+
+.nav-left h1 {
+    font-size: 32px;
 }
 
 .nav-left ul {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 25px;
+    padding: 0 30px;
 }
 
 .nav-left ul li {
     list-style: none;
+    font-size: 18px;
 }
 
 .nav-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
+    padding: 5px 30px;
 }
 
+.nav-right button {
+    padding: 13px 35px;
+    background: #0B3D91;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 9px;
+}
+
+.fa-magnifying-glass {
+    color: #FC3D21;
+}
 
 
