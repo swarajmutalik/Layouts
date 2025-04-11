@@ -181,6 +181,44 @@ header {
     padding-top: 7px;
 }
 
+.third {
+    position: relative;
+    color: white;
+}
+
+.img-content {
+    width: 50%;
+    position: absolute;
+    top: 60px;      
+    right: 0;  
+}
+
+.img-content h3 {
+    color: #f5f6f9;
+}
+
+.img-content h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+.img-content p {
+    color: #f5f6f9;
+    width: 80%;
+}
+
+.third img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+
+
+
+
 
 
 
