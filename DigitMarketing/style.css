@@ -139,7 +139,7 @@ header {
     width: 45%;
 }
 
-.left  h3 {
+.left h3 {
     color: #555555;
     font-size: 18px;
 }
@@ -165,7 +165,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 40px 30px;
+    padding: 40px 30px 120px 30px;
     max-width: 1200px;
     margin: auto;
 }
@@ -186,11 +186,19 @@ header {
     color: white;
 }
 
+
+.third img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+}
+
 .img-content {
     width: 50%;
     position: absolute;
-    top: 60px;      
-    right: 0;  
+    top: 60px;
+    right: 0;
 }
 
 .img-content h3 {
@@ -208,16 +216,15 @@ header {
     width: 80%;
 }
 
-.third img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-
+.progress-circles  {
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 320px;
+    width: 50%;
+    display: flex;
+    gap: 55px;
 }
-
-
-
-
 
 
 
