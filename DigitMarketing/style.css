@@ -227,5 +227,26 @@ header {
 }
 
 
+.progress-circles h4 {
+    color:white;
+    font-size: 26px;
+}
+
+.fourth {
+    padding: 70px 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.res-containers img {
+    width: 100%;
+    max-width: 390px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+
 
 
