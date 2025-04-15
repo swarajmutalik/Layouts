@@ -189,7 +189,7 @@ header {
 
 .third img {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;
 
 }
@@ -216,7 +216,7 @@ header {
     width: 80%;
 }
 
-.progress-circles  {
+.progress-circles {
     color: white;
     position: absolute;
     right: 0;
@@ -228,7 +228,7 @@ header {
 
 
 .progress-circles h4 {
-    color:white;
+    color: white;
     font-size: 26px;
 }
 
@@ -247,6 +247,27 @@ header {
     border-radius: 9px;
 }
 
+.res-content {
+    width: 100%;
+    max-width: 390px;
+}
 
+.res-content h3 {
+    padding: 15px 0;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.res-content p {
+    color: #555555;
+    line-height: 1s.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
 
+.fifth img {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+
+}
