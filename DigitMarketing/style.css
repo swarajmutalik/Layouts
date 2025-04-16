@@ -265,9 +265,44 @@ header {
     font-size: 17px;
 }
 
+.fifth {
+    position: relative;
+    color: white;
+}
+
 .fifth img {
     width: 100vw;
     height: 80vh;
     object-fit: cover;
 
+}
+
+.img-cont {
+    width: 35%;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.img-cont h3 {
+    font-size: 16px;
+    color: #8c89a2;
+    z-index: 10;
+}
+
+.img-cont h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+    padding: 12px 0;
+}
+
+.img-cont p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    z-index: 10;
+    padding: 15px 0;
+}
+
+.img-cont button {
+    margin-top: 25px;
 }
