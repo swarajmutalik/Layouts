@@ -278,10 +278,11 @@ header {
 }
 
 .img-cont {
-    width: 35%;
+    width: 45%;
     position: absolute;
     top: 60px;
     left: 40px;
+    padding: 40px 120px;
 }
 
 .img-cont h3 {
@@ -305,4 +306,37 @@ header {
 
 .img-cont button {
     margin-top: 25px;
+}
+
+.sixth h3 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.sixth h2 {
+    padding-bottom: 35px;
+}
+
+.blog-headings {
+    text-align: center;
+}
+
+.blog-containers {
+    width: 100%;
+    max-width: 390px;
+    
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-containers img {
+    width: 100%;
+    max-width: 390px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 9px;
 }
