@@ -435,10 +435,10 @@ header {
 }
 
 .nine {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 .container {
@@ -450,7 +450,8 @@ header {
     padding: 20px;
 }
 
-.headings h4,h2 {
+.headings h4,
+h2 {
     margin: 5px 0;
 }
 
@@ -463,7 +464,7 @@ header {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
 .submit {
@@ -473,5 +474,60 @@ header {
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+.ten {
+    background-color: #0d0d12;
+    color: #fff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    gap: 60px;
+}
+
+.footer-branding {
+    flex: 1;
+    max-width: 400px;
+}
+
+.footer-branding h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-branding p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.footer-headings {
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+}
+
+.footer-branding button {
+    padding: 12px 24px; 
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: #0d0d12;
+    color: #ccc;
+    text-align: center;
 }
 
